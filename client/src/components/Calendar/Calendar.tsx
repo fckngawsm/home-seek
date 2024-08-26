@@ -2,7 +2,6 @@ import { CaretLeft, CaretRight } from "@phosphor-icons/react";
 import { DAYS_OF_WEEK } from "../../constants/daysOfWeek";
 import { useCalendar } from "../../hooks/useCalendar";
 import { dateFormatter } from "../../utlis/date/formatDate";
-import { IconButton } from "../IconButton";
 import {
   CalendarCurrentDateTitle,
   StyledDayWeek,
@@ -60,9 +59,9 @@ export const Calendar = () => {
         <CalendarCurrentDateTitle>
           {dateFormatter.formatMonthYear(selectedDate)}
         </CalendarCurrentDateTitle>
-        <IconButton onClick={handleNextMonth}>
+        <CalendarButton onClick={handleNextMonth}>
           <CaretRight size={18} weight="regular" />
-        </IconButton>
+        </CalendarButton>
       </div>
       <StyledDaysOfMonthList>
         {DAYS_OF_WEEK.map((day) => (
