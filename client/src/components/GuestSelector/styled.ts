@@ -34,7 +34,6 @@ export const StyledGuestItemDescription = styled.h4`
   font-weight: 400;
   line-height: 1;
   color: #000000;
-  position: relative;
   margin: 0;
 `;
 

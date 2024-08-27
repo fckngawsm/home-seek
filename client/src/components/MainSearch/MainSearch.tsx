@@ -1,4 +1,4 @@
-import { DateInput } from "../CustomInputs/DateInput";
+import { DateInput } from "../CustomInputs/DateInput/DateInput";
 import { GuestsNumberInput } from "../CustomInputs/GuestsNumberInput";
 import { RegionInput } from "../CustomInputs/RegionInput";
 import { SearchVerticalSeparate } from "../CustomInputs/styled";

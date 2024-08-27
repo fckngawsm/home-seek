@@ -1,16 +1,14 @@
 import styled from "styled-components";
 
 export const CalendarWrapper = styled.div`
-  position: absolute;
   padding: 32px;
   background-color: #ffffff;
 `;
 
 export const CalendarCurrentDateTitle = styled.h2`
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
   color: #000000;
   margin: 0;
   text-align: center;
@@ -20,15 +18,15 @@ export const StyledDaysOfMonthList = styled.div`
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   text-align: center;
-  gap: 15px;
+  min-width: 350px;
 `;
 
 export const StyledDayWeek = styled.h4`
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #858585;
   line-height: 1;
-  color: #6b7280;
   background-color: transparent;
   margin: 0;
   width: 20px;
@@ -39,12 +37,10 @@ export const StyledDaysOfWeek = styled.h4<{
   $isCurrentDay?: boolean;
   $isDisabled?: boolean;
 }>`
-  font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 1;
+  font-size: 16px;
   color: ${({ $isCurrentDay, $isDisabled }) =>
-    $isDisabled ? "#aaa" : $isCurrentDay ? "#ffffff" : "#000000"};
+    $isDisabled ? "#aaa" : $isCurrentDay ? "#ffffff" : "#313131"};
   background-color: ${({ $isCurrentDay, $isDisabled }) =>
     $isDisabled ? "transparent" : $isCurrentDay ? "#000000" : "transparent"};
   margin: 0;

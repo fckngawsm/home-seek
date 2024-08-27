@@ -32,21 +32,22 @@ export const ListTitle = styled.h2`
   font-weight: 600;
   line-height: 1;
   color: #000000;
-  position: relative;
   margin: 0 0 15px 0;
 `;
 
 export const MenuWithItems = styled.ul<{ $isVisible: boolean }>`
   position: absolute;
-  top: 140px;
+  top: 65px;
+  left: 0;
   z-index: 1000;
   background-color: #ffffff;
   padding: 20px 32px;
-  border-radius: 20px;
+  width: 100%;
+  border-radius: 32px;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease;
-
+  box-sizing: border-box;
   ${({ $isVisible }) =>
     $isVisible &&
     css`

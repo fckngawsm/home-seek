@@ -10,4 +10,5 @@ export const StyledSearchWrapper = styled.div`
   margin: 0 auto;
   display: flex;
   gap: 32px;
+  position: relative;
 `;
