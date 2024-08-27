@@ -1,7 +1,7 @@
-import { useCalendar } from "../../../hooks/useCalendar";
-import { useToogle } from "../../../hooks/useToogle";
-import { Calendar } from "../../Calendar/Calendar";
-import { ClickAwayListener } from "../../ClickAwayListener/ClickAwayListener";
+import { Calendar } from "@/components/Calendar/Calendar";
+import { ClickAwayListener } from "@/components/ClickAwayListener/ClickAwayListener";
+import { useCalendar } from "@/hooks/useCalendar";
+import { useToogle } from "@/hooks/useToogle";
 import {
   MenuWithItems,
   StyledSearchInpurWrapper,

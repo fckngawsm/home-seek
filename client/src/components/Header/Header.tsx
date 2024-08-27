@@ -1,6 +1,6 @@
+import globe from "@/images/globe.svg";
+import logo from "@/images/logo.svg";
 import { UserCircleDashed } from "@phosphor-icons/react";
-import globe from "../../images/globe.svg";
-import logo from "../../images/logo.svg";
 import {
   HeaderActionsPart,
   HeaderHostAction,

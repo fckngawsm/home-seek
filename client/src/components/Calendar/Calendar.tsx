@@ -1,4 +1,4 @@
-import { DAYS_OF_WEEK } from "../../constants/daysOfWeek";
+import { DAYS_OF_WEEK } from "@/constants/daysOfWeek";
 import {
   StyledDayWeek,
   StyledDaysOfMonthList,

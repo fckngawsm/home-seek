@@ -1,7 +1,7 @@
+import { CalendarCurrentDateTitle } from "@/components/Calendar/styled";
+import { IconButton } from "@/components/IconButton";
+import { dateFormatter } from "@/utlis/date/formatDate";
 import { CaretLeft, CaretRight } from "@phosphor-icons/react";
-import { dateFormatter } from "../../../utlis/date/formatDate";
-import { CalendarCurrentDateTitle } from "../../Calendar/styled";
-import { IconButton } from "../../IconButton";
 
 interface DateInputHeaderProps {
   selectedDate: Date;
